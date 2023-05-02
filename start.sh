@@ -1,6 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
+  git clone https://github.com/FarzanGit/charlie /charlie
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
 fi
